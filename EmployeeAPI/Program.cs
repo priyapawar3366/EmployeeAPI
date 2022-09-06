@@ -14,8 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options => 
 {
     string tenantId = "79bf4280-6146-4a62-af65-65dce613ecaf";
-    string clientId = "ba7e1986-4099-4a8a-aed3-0258561fa768";
-    string clientSecret = "9HL8Q~NobzA7ZFEd6eMO3ZscLsYFy5iTGChC2bFq";
+    string clientId = "e8b28739-ba78-472b-bcfd-e68385705aee";
+    string clientSecret = "rCq8Q~.rmy1dq7pKnRyL5SvfI0wsHcRPuT1_rdfq";
 
     string keyvaultUrl = "https://appkeyvault30002.vault.azure.net/";
     string secretName = "dbconnectionstring";

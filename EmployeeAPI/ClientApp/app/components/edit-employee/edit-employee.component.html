@@ -1,0 +1,17 @@
+
+<div *ngIf="emp"><h2>{{ emp.name }}</h2>
+<div>
+    Name : <input [(ngModel)]="emp.name" placeholder="Name"/>
+</div>
+<div>
+    Age : <input [(ngModel)]="emp.age" placeholder="Age"/>
+</div>
+<div>
+    Designation : <input [(ngModel)]="emp.designation" placeholder="Designation"/>
+</div>
+<div>
+    Mobilenumber : <input [(ngModel)]="emp.mobilenumber" placeholder="Mobilenumber"/>
+</div>
+<button (click)="updateEmployee(emp)" *ngIf="emp.id">Save</button>
+<button (click)="createEmployee(emp)" *ngIf="!emp.id">Create</button>
+</div>
